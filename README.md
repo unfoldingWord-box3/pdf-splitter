@@ -9,7 +9,7 @@
 ```
 git clone https://github.com/unfoldingWord-box3/pdf-splitter.git
 cd pdf-splitter
-``
+```
 
 3. Run this splitter with this sytax:
 
@@ -30,7 +30,7 @@ This above demo command will put the split PDFs in the root of this repo, but sh
 
 ### Book #
 
-You may need to tweek the script it self if you need to change things such as what number to start counting the books if there are other sections you don't want that have the same BookmarkLevel as the one you give it, such as a TOC page or other content. Change the line `book=1` to a lower number to offset this.
+You may need to tweek the script it self if you need to change things such as what number to start counting the books if there are other sections you don't want that have the same BookmarkLevel as the one you give it, such as a TOC page or other content. Change the line `book=1` to a lower number to offset this or remote the `${padded_book}-` part in the pdftk call all together.
 
 ### Static pages at beginning
 
